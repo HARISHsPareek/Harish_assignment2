@@ -35,10 +35,10 @@ Make sure you have the following installed on your machine:
 Clone the repository
 
    
-   git clone https://github.com/HARISHsPareek/Harish_assignment2.git 
+  git clone https://github.com/HARISHsPareek/Harish_assignment2.git 
   
 
-    cd weather-monitoring
+      cd weather
 Install dependencies
 
     npm install
