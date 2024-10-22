@@ -32,13 +32,15 @@ Make sure you have the following installed on your machine:
 
 - Node.js (v14+)
 - npm or yarn
+
+
 Clone the repository
 
    
-  git clone https://github.com/HARISHsPareek/Harish_assignment2.git 
-  
+    git clone https://github.com/HARISHsPareek/Harish_assignment2.git 
+    
 
-      cd weather
+    cd weather
 Install dependencies
 
     npm install
@@ -70,7 +72,7 @@ The build output will be located in the dist/ folder.
 Build Docker Image
 Ensure Docker is installed on your system. Then, create a Docker image by running:
 
-    docker build -t weather-monitoring 
+    docker build -t weather
 
 
 #### Run Docker Container
@@ -78,5 +80,5 @@ Ensure Docker is installed on your system. Then, create a Docker image by runnin
 To run the application in a Docker container, use the following command:
 
 
-    docker run -p 3000:3000 weather-monitoring
+    docker run -p 3000:3000 weather
 The app will be accessible at http://localhost:3000.
